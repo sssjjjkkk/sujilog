@@ -3,7 +3,7 @@ layout: post
 permalink: /contents-title-tip/
 title: '콘텐츠 마케터가 알아야 할 클릭을 부르는 제목 짓기'
 date: 2020-03-14 11:00:00 +09:00
-feature: '/img/posts/02/thumbnail.png'
+feature: '/img/posts/02/contents 1200628.png'
 background: '/img/posts/02/background.png'
 categories:
   - review

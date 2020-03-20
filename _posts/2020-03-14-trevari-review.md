@@ -3,7 +3,7 @@ layout: post
 permalink: /trevari-review/
 title: '두 번의 트레바리 후기'
 date: 2020-03-14 11:00:00 +09:00
-feature: '/img/posts/01/trevari_thumbnail.png'
+feature: '/img/posts/01/trv1200628.png'
 background: '/img/posts/01/trevari_background.png'
 categories:
   - review
