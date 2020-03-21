@@ -14,7 +14,7 @@ facebook_username:  soozyy
 
   # 블로그 disqus shortname
 disqus:
-shortname: sujilog-com
+  shortname: sujilog-com
 
 # Build settings
 markdown:           kramdown
