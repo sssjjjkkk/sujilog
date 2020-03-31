@@ -9,7 +9,7 @@ locale:             "ko_KR"
 thumbnail:          "/img/header.png"
 
 # Social Profiles
-instagram_username: instagram_username
+instagram_username:
 facebook_username:  soozyy
 
   # 블로그 disqus shortname
