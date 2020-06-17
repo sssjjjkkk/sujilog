@@ -43,6 +43,12 @@ layout: default
             <a class="btn btn-primary float-right" href="{{ page.next.url | prepend: site.baseurl | replace: '//', '/' }}" data-toggle="tooltip" data-placement="top" title="{{ page.next.title }}">Next<span class="d-none d-md-inline">
                 Post</span> &rarr;</a>
             {% endif %}
+            <script>
+              var postName = {{page.title}};
+              gtag('event','보기',{
+              'event_category':'글보기',
+              'event_label' : postName});
+            </script>
   {% include disqus.html %}
           </div>
 
