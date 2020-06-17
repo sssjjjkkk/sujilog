@@ -50,9 +50,9 @@ layout: default
       </div>
     </article>
 
-      <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false">
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false">
+    </script>
 
-      </script>
   <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"40d6f3c6aceeddb79535a37f6","lid":"0b7765df4e","uniqueMethods":true}) })</script>
 
   <script>
@@ -61,4 +61,5 @@ layout: default
     'event_category': '글보기',
     'event_label': postName});
   </script>
-    {% include disqus.html %}
+
+{% include disqus.html %}
