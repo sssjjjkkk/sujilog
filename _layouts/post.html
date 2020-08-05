@@ -55,16 +55,13 @@ layout: default
 
   <script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us18.list-manage.com","uuid":"40d6f3c6aceeddb79535a37f6","lid":"0b7765df4e","uniqueMethods":true}) })</script>
 
-  <script>
-    var postName = '{{ page.title }}';
-    gtag('event', '보기', {
-    'event_category': '글보기',
-    'event_label': postName});
+{% include disqus.html %}
+<script>
 
-    fbq('track','ViewContent',{
-   content_name : '{{ page.title }}'
+dataLayer.push({
+ 'event': 'ViewContent',
+ 'content_name': '{{ page.title }}',
+ 'content_ids': '{{ page.content_id }}'
  });
 
-  </script>
-
-{% include disqus.html %}
+ </script>
